@@ -1,0 +1,168 @@
+
+:root{
+
+    --emp-pink1:#F23869;
+    --emp-pink2:#BF3459;
+    --empresa-pink3:#8C2B4F;
+    --empresa-black:#0F1B26;
+    --empresa-white:#F2F2F2;
+    
+    --sombra:0px 0px 11px 8px rgba(0,0,0,0.26);
+    --violet: rgb(150, 82, 214);
+    }
+
+    *
+    {
+    margin:0;
+    padding:0
+
+    }
+
+
+
+
+
+
+
+
+/*Formulario */
+
+.contenedor-formulario{
+   
+ position: relative;
+  
+
+width: 90%;
+
+box-shadow:  var(--sombra);
+
+}
+
+
+
+
+
+
+.formulario{
+    margin-top: 0%;
+     padding-left: 2%;
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:100vh;
+   
+
+}
+.formpart1{
+
+ padding-right: 3%;
+ width: 40%;
+
+}
+.formpart2{
+   padding-left: 2%;
+    width: 50%;
+
+   }
+
+
+.input-form{
+
+   padding: 10px;
+   font-size: 20px;
+}
+
+.label-form{
+
+    text-align: left;
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.campo{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.form-textarea{
+    font-size: 25px;
+   height: 20vh;
+ 
+}
+
+.file-form{
+    background-color: #f2f2f2;
+  border: none;
+  padding: 8px;
+  
+    font-size: 23px;
+
+}
+
+.check-form{
+
+width: 5%;
+height: 30px;
+margin-right: 5px;
+
+}
+
+.campo__check{
+    width: 72%;
+    display: flex;
+    flex-direction:row ;
+    
+  
+}
+
+.btn-envio{
+    cursor: pointer;
+    position: relative;
+    top:5%;
+    left: 40%;
+    padding: 15px 85px;
+    font-size: 23px;
+    border-radius: 50px;
+    transition: 0.3s;
+    
+}
+
+
+.btn-envio:hover{
+    border: none;
+    transition: 0.8s;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 50px;
+}
+
+
+.btn-cerrar{
+    color: #F2F2F2;
+     padding: 5px 15px;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    left: 95%;
+    background-color:var(--empresa-black);
+}
+
+.modal{
+  
+
+    position: fixed;
+      top:-1%;
+    left:8%;
+    background-color: #F2F2F2;
+    z-index: 1;
+    height: 100vh;
+    transform: scale(0.90);
+    border-radius: 25px;
+    box-shadow: 10px 10px 150px #65686b;
+    
+}
